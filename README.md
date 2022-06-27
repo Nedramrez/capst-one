@@ -5,6 +5,7 @@
 # HTML/CSS &amp; JavaScript capstone project
 
 **DAY 1**
+
 **Milestone 0 - project setup (0.5h)**
 
 - [ ] Set up the repository and tools.
@@ -20,6 +21,7 @@
 - [ ] Deploy the project.
 
 **DAY 2**
+
 **Milestone 3 - desktop version (5h)**
 
 - [ ] Adapt the 2 pages to desktop.
@@ -29,20 +31,22 @@
 - [ ] Deploy the project.
 
 **DAY 3**
+
 **Milestone 5 - dynamic page (5h)**
 - [ ] Implement the section "Featured speakers" with dynamic HTML.
 - [ ] Deploy the project and check to make sure everything works as planned.
+
 **Milestone 6 - documentation (1.5h)**
 - [ ] Record a video describing your project.
 - [ ] Create a good README and pull request description.
 
 ## Live Demo 
 
-[Live Demo Link](https://nedramrez.github.io/portfolio/)
+[Live Demo Link](#)
 
 ## Built With
 
--  HTML, CSS
+-  HTML, CSS and Javascript
 
 ## Authors
 
