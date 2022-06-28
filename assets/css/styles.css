@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+i {
+  color: #d3d3d3;
+  font-size: 50px; 
+}
+
+@font-face {
+  font-family: Cocogoose;
+  src: url(../fonts/сocogoose-regular.otf);
+}
+
+@font-face {
+  font-family: Cocogoose-light;
+  src: url(../fonts/cocogoose-light.ttf);
+}
+
+.welcome {
+  padding: 0 0.5rem;
+}
+
+.w-paragraph {
+  color: #ec5242;
+  font: 300 1rem Lato, sans-serif;
+  padding: 0.8rem 0;
+}
+
+.w-h1 {
+  color: #ec5242;
+  font: lighter 2rem Cocogoose, sans-serif;
+  line-height: 90%;
+  width: 20rem;
+}
+
+.w-description {
+  padding: 0.5rem;
+  border: 0.1rem solid #d3d3d3;
+
+}
+
+.program {
+  background-color: #272a31;
+  color: #d3d3d3;
+}
