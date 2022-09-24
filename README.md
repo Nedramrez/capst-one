@@ -4,11 +4,12 @@
 
 # HTML/CSS &amp; JavaScript capstone project
 
+Original design idea by [Cindy Shin] (https://www.behance.net/adagio07) in Behance.
+
 ## Live Demo 
 
 [Live Demo Link](https://nedramrez.github.io/capst-one/)
 
-Original design idea by [Cindy Shin] (https://www.behance.net/adagio07) in Behance.
 
 **DAY 1**
 
