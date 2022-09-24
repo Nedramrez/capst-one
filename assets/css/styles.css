@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Outfit:wght@100;400;700&family=Poppins&display=swap');
 
-
 * {
   box-sizing: border-box;
   margin: 0;
@@ -58,7 +57,7 @@
   font: lighter 2rem/90% Cocogoose, sans-serif;
   width: 90%;
   background-image: url(../images/bokeh-1123787__340.webp);
-  background-clip: text;
+  background-clip: unset;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -83,7 +82,7 @@
   padding: 1rem 0 5rem 0;
 }
 
-/* Section - Program*/
+/* Section - Program */
 
 .program {
   display: flex;
@@ -177,7 +176,6 @@
 }
 
 .speakers {
-  background-color: #d3d3d3;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -227,7 +225,7 @@
 
 .sp-details {
   width: 75%;
-  height: fit-content;
+  height: 100%;
   padding: 5px 0 0 10px;
 }
 
@@ -245,13 +243,13 @@
 .sp-divider-grey {
   width: 15px;
   height: 2px;
-  background-color:rgba(211, 211, 211, 0.9);
+  background-color: rgba(211, 211, 211, 0.9);
   margin: 0.3rem 0;
 }
 
 .sp-text {
   font: normal 0.6rem Lato, sans-serif;
-  color:#272a31
+  color: #272a31;
 }
 
 @media only screen and (min-width: 768px) {
@@ -276,7 +274,7 @@
 
   .nav-grey {
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
     list-style: none;
     width: 80%;
     margin: 0 10%;
@@ -304,15 +302,14 @@
 
   .div-orange {
     border: #ec5242;
-    border-style: solid;  
+    border-style: solid;
     border-width: 3px;
     padding: 5px;
-    color:#ec5242;
+    color: #ec5242;
   }
 
   .w-div {
     padding: 5rem 10%;
-
   }
 
   .w-paragraph {
@@ -419,6 +416,7 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 .a-logo {
   display: flex;
   flex-direction: column;
@@ -437,7 +435,7 @@
   font-family: 'Lato', sans-serif;
   font-size: 1.2rem;
   text-align: center;
-  color:#272a31;
+  color: #272a31;
   padding: 10px;
   line-height: 1.8rem;
 }
@@ -550,33 +548,33 @@
 }
 
 #godzilla {
-  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  color:rgba(211, 211, 211, 0.5);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', 'Verdana', sans-serif;
+  color: rgba(211, 211, 211, 0.5);
   font-size: 1.5rem;
   font-weight: bold;
 }
 
 #doodle {
   font-family: 'Outfit', sans-serif;
-  color:rgba(211, 211, 211, 0.5);
+  color: rgba(211, 211, 211, 0.5);
   font-size: 1.2rem;
 }
 
 #waver {
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  color:rgba(211, 211, 211, 0.5);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: rgba(211, 211, 211, 0.5);
   font-size: 1.2rem;
   font-weight: 1000;
 }
 
 #wowkakao {
   font-family: 'Lato', sans-serif;
-  color:rgba(211, 211, 211, 0.5);
+  color: rgba(211, 211, 211, 0.5);
 }
 
 #airbaloon {
   font-family: 'Poppins', sans-serif;
-  color:rgba(211, 211, 211, 0.5);
+  color: rgba(211, 211, 211, 0.5);
 }
 
 .footer {

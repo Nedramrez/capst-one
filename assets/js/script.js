@@ -46,10 +46,10 @@ const speakers = [
 const spList = document.querySelector('.speakers');
 const spHeading = document.createElement('h2');
 spHeading.classList.add('sp-heading');
-spHeading.innerHTML = `Featured Speakers`;
+spHeading.innerText = 'Featured Speakers';
 spList.appendChild(spHeading);
 const spDivider = document.createElement('div');
-spDivider.classList.add('sp-divider')
+spDivider.classList.add('sp-divider');
 spList.appendChild(spDivider);
 const spDiv = document.createElement('div');
 spDiv.classList.add('sp-div');
