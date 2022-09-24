@@ -1,9 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Outfit:wght@100;400;700&family=Poppins&display=swap');
+
 
 * {
   box-sizing: border-box;
   margin: 0;
 }
+
+/* Home */
 
 @font-face {
   font-family: Cocogoose;
@@ -13,10 +16,6 @@
 @font-face {
   font-family: Cocogoose-light;
   src: url(../fonts/cocogoose-light.ttf);
-}
-
-body {
-  background-color: #d3d3d3;
 }
 
 /* Header */
@@ -36,7 +35,6 @@ body {
 }
 
 .w-div {
-  background-color: rgba(211, 211, 211, 0.7);
   padding: 0 0.5rem;
 }
 
@@ -50,6 +48,9 @@ body {
   color: #ec5242;
   font: lighter 2rem/90% Cocogoose, sans-serif;
   width: 90%;
+  background-image: url(../images/oleg-laptev-QRKJwE6yfJo-unsplash.jpg);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .w-description {
@@ -351,4 +352,244 @@ body {
     width: 60%;
     padding: 10px 10px 0 10px;
   }
+}
+
+/* -------------------- About page -------------------- */
+
+.a-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: none;
+  background-color: #d3d3d3;
+}
+
+.a-description {
+  color: #272a31;
+  font: 0.8rem Lato, sans-serif;
+  border: 1px solid rgba(211, 211, 211, 0.5);
+  margin: 1rem 0;
+  padding: 0.5rem;
+  background-color: white;
+  z-index: 1;
+  text-align: center;
+  line-height: 1.3rem;
+}
+
+.a-h1 {
+  text-align: center;
+  color: #ec5242;
+  font: lighter 2rem/90% Cocogoose, sans-serif;
+  width: 90%;
+}
+
+.a-contact-us {
+  width: 100%;
+  color: #272a31;
+  font: 0.8rem Lato, sans-serif;
+  padding: 0.5rem;
+  z-index: 1;
+  text-align: center;
+}
+
+#email {
+  margin: 10px 0 0 0;
+  color: #272a31;
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+  padding: 0 0 2rem;
+}
+
+.a-welcome {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: none;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.a-logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.a-div-white {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+}
+
+.a-h2 {
+  font-family: 'Lato', sans-serif;
+  font-size: 1.2rem;
+  text-align: center;
+  color:#272a31;
+  padding: 10px;
+  line-height: 1.8rem;
+}
+
+.a-divider {
+  width: 6%;
+  height: 2px;
+  background-color: #ec5242;
+  margin: 0 0 20px 0;
+}
+
+.a-logo-info {
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+  font-size: 0.8rem;
+  padding: 0 0 1rem;
+}
+
+.a-logo-div {
+  display: flex;
+  justify-content: center;
+  border: 2px solid rgba(211, 211, 211, 0.5);
+  width: 90%;
+  margin: 0 0 2rem 0;
+}
+
+.a-logo-image {
+  width: 60%;
+  padding: 20px 20px;
+}
+
+.a-history {
+  font-family: 'Lato', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  border-top: 2px solid rgba(211, 211, 211, 0.5);
+}
+
+.a-history-h3 {
+  margin: 2rem 0 1rem;
+}
+
+.a-history-divider {
+  width: 5%;
+  height: 1px;
+  background-color: #ec5242;
+  margin-bottom: 1rem;
+}
+
+.a-history-text {
+  padding: 1rem;
+}
+
+.a-past {
+  display: flex;
+  flex-direction: column;
+}
+
+.a-past-1 {
+  background-image: url(../images/edouard_dubufe_congres_de_paris.webp);
+  margin: 5px 20px;
+  background-size: 100%;
+}
+
+.a-past-blur {
+  background-color: rgba(236, 82, 66, 0.7);
+  padding: 70px;
+  font-family: 'Lato', sans-serif;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.a-past-2 {
+  background-image: url(../images/pilgrimage-crop.jpg);
+  margin: 5px 20px 20px;
+  background-size: 100%;
+}
+
+.a-partners {
+  background-color: #424347;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.a-partners h2 {
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+  color: white;
+  padding: 20px 0 10px;
+  font-size: 1rem;
+}
+
+.a-partners-list {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0 0 20px;
+}
+
+.a-li {
+  padding: 10px;
+  list-style: none;
+}
+
+#godzilla {
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color:rgba(211, 211, 211, 0.5);
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+#doodle {
+  font-family: 'Outfit', sans-serif;
+  color:rgba(211, 211, 211, 0.5);
+  font-size: 1.2rem;
+}
+
+#waver {
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color:rgba(211, 211, 211, 0.5);
+  font-size: 1.2rem;
+  font-weight: 1000;
+}
+
+#wowkakao {
+  font-family: 'Lato', sans-serif;
+  color:rgba(211, 211, 211, 0.5);
+}
+
+#airbaloon {
+  font-family: 'Poppins', sans-serif;
+  color:rgba(211, 211, 211, 0.5);
+}
+
+.footer {
+  display: flex;
+  padding: 10px 0 20px;
+}
+
+.footer-image-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  width: 50%;
+}
+
+.footer-image {
+  width: 60%;
+}
+
+.footer-text {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Lato', sans-serif;
+  font-size: 10px;
 }
