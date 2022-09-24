@@ -11,7 +11,11 @@
 </head>
 <body>
   <header>
-    
+    <!--DOM mobile menu-->
+    <div class="mobile-menu">
+
+    </div>
+
     <nav class="nav-desktop">
       <ul class="nav-black">
         <li><i class="fab fa-facebook-f"></i></li>
@@ -38,6 +42,11 @@
   <main>
 
     <section class="welcome">
+      <div id="nav-menu">
+        <a onclick="mobileMenu()"> 
+          <i class="fas fa-bars"></i>
+        </a>
+      </div>
       <div class="w-div">
         <p class="w-paragraph">"Welcome to the faerie world!"</p>
         <h1 class="w-h1">
@@ -59,7 +68,7 @@
 
     <!-- Section - Program-->
 
-    <section class="program">
+    <section class="program" id="program">
       <div class="p-container">
         <h1>Main Program</h1>
         <div class="divider"></div>

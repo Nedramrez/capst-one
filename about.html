@@ -5,13 +5,19 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="assets/css/styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Outfit:wght@100;400;700&family=Poppins&display=swap" rel="stylesheet">
   <title>About</title>
+  <script src="assets/js/about.js" defer></script>
 </head>
 <body>
   <header>
+        <!--DOM mobile menu-->
+        <div class="mobile-menu">
+
+        </div>
     <nav class="nav-desktop">
       <ul class="nav-black">
         <li><i class="fab fa-facebook-f"></i></li>
@@ -37,6 +43,11 @@
   </header>
   <main>
     <section class="a-welcome">
+      <div id="nav-menu">
+        <a onclick="mobileMenu()"> 
+          <i class="fas fa-bars"></i>
+        </a>
+      </div>
       <div class="w-div a-div">
         <p class="w-paragraph a-paragraph">"Welcome to the faerie world!"</p>
         <h1 class="a-h1">
