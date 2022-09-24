@@ -4,6 +4,12 @@
 
 # HTML/CSS &amp; JavaScript capstone project
 
+## Live Demo 
+
+[Live Demo Link](https://nedramrez.github.io/capst-one/)
+
+Original design idea by [Cindy Shin] (https://www.behance.net/adagio07) in Behance.
+
 **DAY 1**
 
 **Milestone 0 - project setup (0.5h)**
@@ -39,10 +45,6 @@
 **Milestone 6 - documentation (1.5h)**
 - [ ] Record a video describing your project.
 - [ ] Create a good README and pull request description.
-
-## Live Demo 
-
-[Live Demo Link](#)
 
 ## Built With
 
