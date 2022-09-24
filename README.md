@@ -4,6 +4,13 @@
 
 # HTML/CSS &amp; JavaScript capstone project
 
+Original design idea by [Cindy Shin] (https://www.behance.net/adagio07) in Behance.
+
+## Live Demo 
+
+[Live Demo Link](https://nedramrez.github.io/capst-one/)
+
+
 **DAY 1**
 
 **Milestone 0 - project setup (0.5h)**
@@ -40,10 +47,6 @@
 - [ ] Record a video describing your project.
 - [ ] Create a good README and pull request description.
 
-## Live Demo 
-
-[Live Demo Link](#)
-
 ## Built With
 
 -  HTML, CSS and Javascript
@@ -70,4 +73,4 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License
 
-This project is [MIT](https://github.com/git/git-scm.com/blob/main/MIT-LICENSE.txt) licensed.
+This project is [MIT](LICENSE.md) licensed.
