@@ -28,6 +28,14 @@
 
 /* Section - Welcome */
 
+.link {
+  text-decoration: none;
+}
+
+.link::after {
+  color: #ec5242;
+}
+
 .welcome {
   background-image: url(../images/grey-image.webp);
   background-repeat: no-repeat;
@@ -36,6 +44,7 @@
 
 .w-div {
   padding: 0 0.5rem;
+  background-color: rgba(211, 211, 211, 0.8);
 }
 
 .w-paragraph {
@@ -48,7 +57,8 @@
   color: #ec5242;
   font: lighter 2rem/90% Cocogoose, sans-serif;
   width: 90%;
-  background-image: url(../images/oleg-laptev-QRKJwE6yfJo-unsplash.jpg);
+  background-image: url(../images/bokeh-1123787__340.webp);
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -302,6 +312,7 @@
 
   .w-div {
     padding: 5rem 10%;
+
   }
 
   .w-paragraph {
